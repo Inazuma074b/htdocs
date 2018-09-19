@@ -12,7 +12,7 @@
 		<?php include("leftMeun.php"); ?>
 		<div id="centerBody">
 			<div id="leftArea">
-				sdfsdf
+				
 			</div>
 			<div id="centerArea">
 				<?php 
