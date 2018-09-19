@@ -1,0 +1,106 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+#rateTBTitle {
+	background-color: rgba(144, 202, 234, 0.4);
+}
+
+#rateTB {
+	/*消除框線*/
+	border-collapse:collapse;
+	width: 90%;
+	/*opacity: 0.4;*/
+
+}
+
+#tableDiv {
+	display: none;
+}
+
+#titleTop {
+	width: 100vw;
+	height: 30vw;
+	min-width: 1000px;
+	min-height: 300px;
+	background-image: url('\\main_page\\img\\titleBG.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+#leftMeun {
+	width: 230px;
+	height: 600px;
+  	position: fixed;
+  	top: 200px;
+  	left: -200px;
+}
+
+#meunBody {
+	width: 200px;
+	height: 600px;
+  	float: left;
+  	background-color: rgba(199, 229, 244, 0.4)
+}
+
+#meunTag {
+	width: 30px;
+	height: 170px;
+  	margin-top: 200px;
+  	float: left;
+  	background-color: rgba(199, 229, 244, 0.4)
+}
+.meunItem {
+	width: 190px;
+	height: 70px;
+  	margin: 5px;
+  	float: left;
+  	background-color: rgba(199, 229, 244, 0.8)
+  	
+}
+
+#centerBody {
+	width: 100vw;
+	min-width: 1000px;
+	background-color: #808080;
+}
+
+#leftArea {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+#centerArea {
+	float: left;
+	width: 50%;
+	min-height: 70vh;
+	padding: 50px 5% 0px 5%;
+
+	background-color: #a0a0a0;
+}
+
+#rightArea {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.selBox {
+	float: left;
+	width: 100px;
+
+	background-color: #c0c0c0;
+}
+
+.rateTBItemClass {
+	background-color: rgba(199, 229, 244, 0.4);
+}
+
+.rateTBtd {
+}
+
+/* 清除空白盒子的所有浮动 */
+.clear {
+	clear:both;
+}
